@@ -1,8 +1,7 @@
 import React from 'react';
 import { Footer } from '../components';
 
-// eslint-disable-next-line import/prefer-default-export
-export function FooterContainer() {
+export default function FooterContainer() {
   return (
     <Footer>
       <Footer.Title>Question? Contact us.</Footer.Title>
